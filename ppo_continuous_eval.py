@@ -47,7 +47,7 @@ parser.add_argument(
     '--amp-phi', default=[2, -2, 2, 10, 2, -6], type=list_of_ints, help='reference roll angles')
 parser.add_argument('--without-beta', action='store_true', default=False, help='whether the side-slip angle is associated with the observed states.')
 parser.add_argument('--filter-action', action='store_true', default=False, help='filter the actions for plotting.')
-parser.add_argument('--agent-name', default='PHlab_attitude_nominal__ppo_continous_actions__7__1707401136_addsmtorw_maxdiffsm_False__multipleEnvs_True__totalTimesteps_10000000.pkl', required=True, help='Agent name to evaluate')
+parser.add_argument('--agent-name', default='PHlab_attitude_nominal__ppo_SingleEnvSync_gpu_sampledAction__7__1703314636.pkl', required=True, help='Agent name to evaluate')
 
 # parser.add_argument(
 #     '--max-theta', default=max(np.abs([0, 12, 3, -4, -8, 2])), type=float)

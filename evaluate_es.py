@@ -380,7 +380,7 @@ def main():
 
     # update config:
     params.update_from_dict(model_config)
-    setattr(params, 'env_name', params.env_name)
+    setattr(params, 'env-name', params.env_name)
     params.stdout()
 
     # build path to figures:

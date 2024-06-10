@@ -39,8 +39,8 @@ parser.add_argument(
 parser.add_argument('--seed', help='Random seed to be used',
                     type=int, default=7)
 parser.add_argument(
-    '--use_mu', help='Use mu instead of best agent', action='store_true')
-parser.add_argument('--usebest-mu', action='store_true')
+    '--use-mu', help='Use mu instead of best agent', action='store_true')
+parser.add_argument('--use-best-mu', action='store_true')
 parser.add_argument('--use-best-elite', action='store_true')
 parser.add_argument('--disable-cuda', help='Disables CUDA',
                     action='store_true', default=False)
@@ -108,9 +108,10 @@ _, _, fault_name = parsed_args.env_name.split('_')
 #**** list of agents used to evaluate the online adaptation algorithm.
 n_agents_name = [
     "CEM_TD3Buffers_stateDim6_adaptSigmaV1_RLsync_100iters_deep2h64_new_covSaving_pop50_parents10_seed42",
-    "CEM_TD3Buffers_stateDim6_adaptSigmaV1_RLsync_50iters_deep2h64_new_seed0",
+    "CEM_TD3Buffers_stateDim6_adaptSigmaV1_RLsync_100iters_deep2h64_new_covSaving_pop50_parents10_seed0"
     "CEM_TD3Buffers_stateDim6_adaptSigmaV1_RLsync_100iters_deep2h64_new_covSaving_pop50_seed0",
-    # "CEM_TD3Buffers_stateDim6_adaptSigmaV1_RLsync_100iters_deep2h64_new_covSaving_pop50_seed42",
+
+    # "CEM_TD3Buffers_stateDim6_adaptSigmaV1_RLsync_50iters_deep2h64_new_seed0","CEM_TD3Buffers_stateDim6_adaptSigmaV1_RLsync_100iters_deep2h64_new_covSaving_pop50_seed42",
     # "CEM_TD3Buffers_stateDim6_adaptSigmaV1_RLsync_50iters_deep2h64_new_covSaving_seed0",
     # "CEM_PPO_SingleAgent_deep2h64_pop20_parents10_test_timesteps5000000_new_seed0",
     # "CEM_PPO_SingleAgent_deep2h64_pop20_parents10_test_timesteps5000000_new_seed42",

@@ -19,6 +19,20 @@ They are applied on a high-fidelity fixed-wing aircraft trimmed at specific flig
 
 > - available environment configurations: nominal (H=2km,V=90m/s), low-q (H=10km, V=90m/s), high-q (H=2km,V=150m/s), gust (external disturbance of 15ft/s up-pointing  wind gust), cg (CG aft-shifted), be (broken elevator), jr (jammed rudder), sa (saturated aileron), se (saturated elevator), ice (ice on wings)
 
+> - CEM-TD3 pre-trained agents name (mu/best_mu/elite/best_elite agents):
+Corresponding to options:
+```
+--use-mu, --use-best-mu, --use-best-elite
+```
+>    * CEM_TD3Buffers_stateDim6_adaptSigmaV1_RLsync_100iters_deep2h64_new_covSaving_pop50_parents10_seed42
+
+>    * CEM_TD3Buffers_stateDim6_adaptSigmaV1_RLsync_100iters_deep2h64_new_covSaving_pop50_parents10_seed0
+
+>    * CEM_TD3Buffers_stateDim6_adaptSigmaV1_RLsync_100iters_deep2h64_new_covSaving_pop50_seed0
+
+
+> - PPO pre-trained agents:
+> See folder "/agents"
 
 ## Paper Abstract
 This study advances flight control systems by integrating deep reinforcement learning to enhance fault tolerance in fixed-wing air- craft. We assess the efficiency of Cross-Entropy Method Reinforcement Learning (CEM-RL) and Proximal Policy Optimization (PPO) algo- rithms in developing an adaptive stable attitude controller. Our proposed frameworks, focusing on smooth actuator control, showcase improved robustness across standard and fault-induced scenarios. The algorithms demonstrate unique traits in terms of trade-offs between trajectory track- ing and control smoothness. Our approach that results in state-of-the-art performance with respect to benchmarks, presents a leap forward in autonomous aviation safety.

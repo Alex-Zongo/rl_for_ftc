@@ -89,13 +89,13 @@ def find_logs_path(logs_name: str, root_dir: str = './logs/wandb/'):
 
 def load_agent_online(model_path: str, args, agent_type_arg):
     model_path = model_path / Path('files')
-    if agent_type_arg == "use_mu":
+    if agent_type_arg == "use-mu":
         print('Using Mu agent')
         agent_name = 'mu_agent.pkl'
-    elif agent_type_arg == "use_best_mu":
+    elif agent_type_arg == "use-best-mu":
         print('Using Best Mu agent seen')
         agent_name = 'best_mu_agent.pkl'
-    elif agent_type_arg == "use_best_elite":
+    elif agent_type_arg == "use-best-elite":
         print('Using Best Elite agent seen')
         agent_name = 'best_elite_agent.pkl'
     else:
