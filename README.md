@@ -26,10 +26,14 @@ This study advances flight control systems by integrating deep reinforcement lea
 ## Module Installation Instructions
 The module is best suited for Linux.
 1. Create and activate a python virtual environment in the project root:
-``` python3.10 -m venv .venv```
+```
+python3.10 -m venv .venv
+```
 
 2. Install the required packages with for instance (optional):
-```python3.10 -m pip install -r requirements.txt```
+```
+python3.10 -m pip install -r requirements.txt
+```
 
 ## CEM-TD3 TRAINING and EVAL
 * For training: Check the file "ES_TD3Buffers.py" for additional options and descriptions.
