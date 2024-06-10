@@ -1,7 +1,7 @@
 # Fault-Tolerant Attitude Flight Control via Reinforcement Learning #
 
-[![Python](https://shields.io/badge/python-v3.10-blue.svg)](mygithubrepo)
-[![License]()](mygithubrepo)
+[![Python](https://shields.io/badge/python-v3.10-blue.svg)](https://github.com/Alex-Zongo/rl_for_ftc.git)
+[![License](https://shields.io/badge/Licence-MIT-green?style=for-the-badge)](https://github.com/Alex-Zongo/rl_for_ftc.git)
 
 ## Author
 👤 **Alex Zongo**
