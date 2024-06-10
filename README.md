@@ -4,7 +4,7 @@
 [![License](https://shields.io/badge/Licence-MIT-green?style=for-the-badge)](https://github.com/Alex-Zongo/rl_for_ftc.git)
 
 ## Author
-👤 **Alex Zongo**
+👤 **Alex Baowend Soom M. A. Zongo**
 (Tsinghua University MSc. Eng. Student)
 * Github: [@AZongo](https://github.com/Alex-Zongo)
 * LinkedIn: [![@AZongo](https://shields.io/badge/LinkedIn--blue?style=social&logo=linkedin)](https://www.linkedin.com/in/alex-zongo/)
