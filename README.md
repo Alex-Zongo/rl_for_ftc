@@ -134,4 +134,4 @@ The environment and some part of the code was borrowed from TU Delft University 
 
 * **Huang, Shengyi et al.** "The 37 Implementation Details of Proximal Policy Optimization" (2022) [[doc](https://iclr-blog-track.github.io/2022/03/25/ppo-implementation-details/)] [[code](https://github.com/vwxyzjn/ppo-implementation-details.git)]
 
-* **Olivier Pourchot** "CEM-RL" [[paper](https://arxiv.org/pdf/1810.01222.pdf)] [[code](https://github.com/apourchot/CEM-RL.git)]
+* **A. Pourchot** "CEM-RL" [[paper](https://arxiv.org/pdf/1810.01222.pdf)] [[code](https://github.com/apourchot/CEM-RL.git)]
