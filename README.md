@@ -19,7 +19,7 @@ They are applied on a high-fidelity fixed-wing aircraft trimmed at specific flig
 
 > - available environment configurations: nominal (H=2km,V=90m/s), low-q (H=10km, V=90m/s), high-q (H=2km,V=150m/s), gust (external disturbance of 15ft/s up-pointing  wind gust), cg (CG aft-shifted), be (broken elevator), jr (jammed rudder), sa (saturated aileron), se (saturated elevator), ice (ice on wings)
 
-> - CEM-TD3 pre-trained agents name (mu/best_mu/elite/best_elite agents):
+* - CEM-TD3 pre-trained agents name (mu/best_mu/elite/best_elite agents):
 Corresponding to options:
 ```
 --use-mu, --use-best-mu, --use-best-elite
@@ -31,7 +31,7 @@ Corresponding to options:
 >    * CEM_TD3Buffers_stateDim6_adaptSigmaV1_RLsync_100iters_deep2h64_new_covSaving_pop50_seed0
 
 
-> - PPO pre-trained agents:
+* - PPO pre-trained agents:
 > See folder "/agents"
 
 ## Paper Abstract
