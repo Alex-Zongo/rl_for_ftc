@@ -41,6 +41,8 @@ This study advances flight control systems by integrating deep reinforcement lea
 
 ![Action Smoothness](docs/sm_comparison.jpg)
 
+> the smaller the bar, the better the performance is.
+
 ## Module Installation Instructions
 The module is best suited for Linux.
 1. Create and activate a python virtual environment in the project root:
@@ -105,6 +107,7 @@ If you are considering fault onset at different stages of the flight evaluation 
 ```
 python3 trajectory_comp.py --gym-id=$YOUR-ENV$ --agent-name=$PPO-TRAINED-AGENT$
 ```
+![Multiple Trajectories](docs/Normal%20Flight_traj_comparison_PHlab_attitude_nominal__ppo_SingleEnvSync_gpu_sampledAction__7__1703314636.jpg)
 
 * The file "comparing_performance.py" is used to compartively evaluate the performance of the PPO agent with respect to a pair of different scenarios.
 ```
@@ -123,7 +126,8 @@ python3 comparing_performance.py --gym-id=$ENV1$ --gym2-id=$ENV2$ --agent-name=$
     ```
     python3 ppo_agent_stability.py --gym-id=$ENV$
     ```
-
+![Attitude Response](docs/PHlab_attitude_be_ppo_attitude_response.jpg)
+![Eigen-values](docs/PHlab_attitude_be_ppo_eigen_values.jpg)
 
 ## Paper
 A paper is presented at the International Conference on Guidance Navigation and Control (ICGNC) in Changsha, August 09-11 2024. Link to be shared soon!!
