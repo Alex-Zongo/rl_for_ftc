@@ -37,6 +37,10 @@ Corresponding to options:
 ## Paper Abstract
 This study advances flight control systems by integrating deep reinforcement learning to enhance fault tolerance in fixed-wing air- craft. We assess the efficiency of Cross-Entropy Method Reinforcement Learning (CEM-RL) and Proximal Policy Optimization (PPO) algo- rithms in developing an adaptive stable attitude controller. Our proposed frameworks, focusing on smooth actuator control, showcase improved robustness across standard and fault-induced scenarios. The algorithms demonstrate unique traits in terms of trade-offs between trajectory track- ing and control smoothness. Our approach that results in state-of-the-art performance with respect to benchmarks, presents a leap forward in autonomous aviation safety.
 
+![Tracking Error](docs/nmae_comparison.jpg)
+
+![Action Smoothness](docs/sm_comparison.jpg)
+
 ## Module Installation Instructions
 The module is best suited for Linux.
 1. Create and activate a python virtual environment in the project root:
